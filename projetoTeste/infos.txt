@@ -1,0 +1,115 @@
+Passos para utilização do react Native
+
+
+    Instalar o NodeJs
+        https://nodejs.org/en/
+
+    Intalar o androide studio
+        https://developer.android.com/studio
+
+    
+ABRE O ANDROID STUDIO, VAI EM CONFIG E CLIK EM SDK
+
+ESCOLHE A VERSÃO DO ANDROIDE QUE AINDA NÃO POSUSI E DESEJAR UTILIZAR
+    clica em sdk tolls
+    marca as opções:
+                    Android SDK BUILD Tools
+                    Android Emulator
+                    Android SDK plataform Tools
+                    e se o seu processador for intel    
+                            intel emulator acelerator.......
+        clica em aply, depois ok,  vai abrir um tela, aceita os termos 
+        e deixa instalar as dependencias
+
+
+    CONFIG  avd managers
+
+        create virtual device   (opcional, mas pode ser pixel 3)
+
+        escolher qual versão quer instalr no dispositivo, clicar em download
+        accept os termos, next
+
+
+
+        
+usando o expo:
+
+            expo init AwesomeProject
+
+            cd nomeDoProjeto
+            npm start
+
+
+
+usando o chocolatey
+    instalar o chocolatey pela url disponibilizada no site deles
+    (pode ser necessário atualizar o power shell, em casos como windows 7)
+
+
+iniciando o primeiro projeto
+    npx react-native init nomeDoProjeto  
+                             npx react-native init nomeDoProjeto  --version 0.58.6
+
+
+
+não esquecer de alterar o caminho do ambiente de variaveis
+    
+
+                    realizar uma mudança que é recomendada pelo time do facebook
+
+
+
+                    inserir o comando abaixo no arquivo MainActivity,java
+                        @Override
+                    protected ReactActivityDelegate createReactActivityDelegate() {
+                        return new ReactActivityDelegate(this, getMainComponentName()){
+                            @Override
+                            protected ReactRootView createRootView(){
+                            return new RNGestureHandlerEnabledRootView(MainActivity.this);
+                            }
+                        };
+                    }
+
+
+  instalar a dependencia:
+             yarn add react-native-gesture-handler
+
+
+rodando a aplicação:
+    npx react-native run-android
+
+
+
+
+Primeiro, você precisará iniciar o Metro, o empacotador JavaScript que acompanha o React Native. Metro 
+"pega um arquivo de entrada e várias opções e retorna um único arquivo JavaScript que inclui todo o seu 
+código e suas dependências." - Metro Docs
+Para iniciar o Metro, execute npx react-native startdentro da pasta do projeto React Native:
+
+        npx react-native start
+
+
+react-native start inicia o Metro Bundler.
+
+Se você usar o gerenciador de pacotes Yarn, poderá usar em yarnvez de npxao executar comandos
+ React Native dentro de um projeto existente.
+Se você está familiarizado com o desenvolvimento web, o Metro é muito parecido com o webpack - 
+para aplicativos React Native. Ao contrário do Kotlin ou do Java, o JavaScript não é compilado - 
+e nem o React Native. Empacotar não é o mesmo que compilar, mas pode ajudar a melhorar o desempenho 
+de inicialização e traduzir algum JavaScript específico da plataforma em mais JavaScript.
+
+Etapa 2: inicie seu aplicativo
+Deixe o Metro Bundler funcionar em seu próprio terminal. Abra um novo terminal dentro da pasta do 
+projeto React Native. Execute o seguinte:
+
+        npx react-native run-android
+
+
+
+
+para o caso d eutilziar o aparelho fisico;
+é necessário baixar:
+     adb fast boot       para reconhecer o aparelho caso não esteja aparecendo na lista
+     (conferir em adb devices)
+
+     driver usb do aparelho celular (da marca e instalar)

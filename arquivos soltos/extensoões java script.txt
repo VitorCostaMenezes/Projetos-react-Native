@@ -1,0 +1,7 @@
+extensoões para VSCode
+
+code runner
+code time
+dracula oficial
+git graph
+material icon theme

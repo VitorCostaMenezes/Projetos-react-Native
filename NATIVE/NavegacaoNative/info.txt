@@ -1,0 +1,9 @@
+Intalar o react navigation
+    npm install @react-navigation/native
+
+instalar as dependencias, 
+    npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+
+instalar o bloco que quer utilizar:
+    npm install @react-navigation/stack    ou outros

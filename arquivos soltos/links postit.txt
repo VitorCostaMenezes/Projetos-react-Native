@@ -1,0 +1,81 @@
+PREFIXOS:
+
+Android: -webkit-*
+Chrome: -webkit-*
+Firefox: -moz-*
+Internet Explorer: -ms-*
+iOS: -webkit-*
+Opera: -o-*
+Safari: -webkit-*
+
+https://autoprefixer.github.io/
+
+86h 28m
+
+https://www.patterncooler.com/
+
+83h 14m  antes de grids
+
+cls
+
+
+
+
+**************************************************************************************
+
+https://www.w3schools.com/colors/colors_picker.asp
+
+https://html-color-codes.info/
+
+https://www.w3schools.com/
+
+https://br.lipsum.com
+
+https://www.dafont.com/pt/
+
+https://necolas.github.io/normalize.css/
+
+https://cdnjs.com/libraries/html5shiv
+
+https://getbootstrap.com/
+
+https://www.ccbg.io/generator
+
+https://www.designerd.com.br/geradores-de-plano-de-fundo-para-seu-layout/
+
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+https://source.unsplash.com/
+
+
+
+***************************************************************************************
+
+
+https://www.udemy.com/
+
+http://www.softblue.com.br/
+
+http://www.brasilmaisti.com.br/index.php/pt-br/
+
+https://www.cursoemvideo.com/
+
+http://extensao.ti.srt.ifsp.edu.br/
+
+http://ead.ti.srt.ifsp.edu.br/
+
+http://alunos.phpdozeroaoprofissional.com.br/login
+
+https://www.urionlinejudge.com.br/judge/pt/problems/index/1
+
+https://www.coursera.org/in-progress
+
+https://alunos.b7web.co3m.br/login
+
+
+
+
+
+
+
+

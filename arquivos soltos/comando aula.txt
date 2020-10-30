@@ -1,0 +1,30 @@
+issues para dscrever as demandas atuais
+
+se quiser fazer, assina issues em assign para tentar fazer
+
+
+laravel e react
+
+
+
+
+
+criar uma branch
+fazer um merge request adicionando alguma modificação no projeto heelo world
+
+
+clonar
+crias branch
+criar branch com o sue nome
+modificar algum arquivo
+subir essa modificação na sua branch
+criar um merge request
+
+
+
+git config user.name "vitor costa menezes"
+git config user.mail "vitor@vitor
+
+
+git code 
+git send
